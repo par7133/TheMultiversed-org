@@ -80,6 +80,7 @@ body {
 }
 .demo {
   color: red;
+  cursor: pointer;
 }  
 .emptyfield{
   border: 1px solid red;
