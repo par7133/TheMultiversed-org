@@ -34,10 +34,6 @@ By default Simplicity open up in Demo mode but the software is fully functional.
 
 ![Simplicity in action #1](/Public/res/screenshot1.png)<br>
 
-### Admin view:
-
-![Simplicity in action #2](/Public/res/screenshot2.png)<br>
-
 Feedback: <a href="mailto:posta@elettronica.lol" style="color:#e6d236;">posta@elettronica.lol</a>
 
 
