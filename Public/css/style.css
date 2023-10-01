@@ -1,0 +1,246 @@
+/*
+ * Copyright (c) 2016, 2024, 5 Mode
+ * All rights reserved.
+ * 
+ * This file is part of Simplicity.
+ * 
+ * Redistribution and use in source and binary forms, with or without
+ * modification, are permitted provided that the following conditions are met:
+ *     * Redistributions of source code must retain the above copyright
+ *       notice, this list of conditions and the following disclaimer.
+ *     * Redistributions in binary form must reproduce the above copyright
+ *       notice, this list of conditions and the following disclaimer in the
+ *       documentation and/or other materials provided with the distribution.
+ *     * Neither 5 Mode nor the names of its contributors 
+ *       may be used to endorse or promote products derived from this software 
+ *       without specific prior written permission.
+ * 
+ * THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND
+ * ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
+ * WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+ * DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDERS OR CONTRIBUTORS BE LIABLE FOR ANY
+ * DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
+ * (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;
+ * LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND
+ * ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+ * (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
+ * SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+ */
+
+body {
+  font-size:12px;
+  font-family: Arial,Sans,Verdana;
+}  
+.aaa {
+  color: #1e76be;    
+}
+.active-group {
+  color: red;    
+}  
+.buddy {
+  width: 180px;
+  height: 260px; 
+  margin: auto;
+  display: none;
+  /*transform: rotate(45deg);*/
+}
+.buddysel {
+  height:23px;
+  cursor: pointer;
+  background-color: lightblue;
+  padding-top: 2px;
+  padding-left: 15px;
+  padding-bottom: 4px;
+  border: 1px solid #FFFFFF;
+}  
+.burger-menu {
+  float:right; 
+  position:absolute; 
+  width: 366px; 
+  background: lightgray;
+  border: 3px solid darkolivegreen; 
+  border-radius:5px;
+  padding: 12px;
+  cursor: pointer; 
+}    
+#burgerMenu {
+}
+.checkin-cell {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  text-align:right;
+}
+.checkin-field {
+  height: 32px;
+}
+#content {
+  position:relative;
+  top:+50px;
+  width:98%;
+}
+.demo {
+  color: red;
+}  
+.emptyfield{
+  border: 1px solid red;
+}
+#emptyPlanet {
+  width:600px;
+  clear:both;
+  margin:auto;
+  position:relative;
+  top: 80px;
+  text-align: center;
+  font-family:Arial,Sans,Verdana;
+  font-size:29px;
+  font-weight:900;
+}
+#footerCont {
+  position: fixed; 
+  top: 2000px; 
+  left:-10px;
+  width: 102%; 
+  border: 1px solid #C2DBF2; 
+  padding: 7px; 
+  background: white; 
+  opacity: 0.3;
+  color:white; 
+  font-family: Arial,Sans,Vardana;
+  font-size: 12px; 
+  text-align: center; 
+  z-index: 99998;
+  display:none;
+}
+#footer {
+  position: fixed;
+  float: right;
+  top: 2000px; 
+  left:-10px;
+  width: 100%; 
+  border: 0px solid #C2DBF2; 
+  padding: 7px; 
+  opacity: 1.0;
+  color:black; 
+  font-family: Arial,Sans,Vardana;
+  font-size: 12px; 
+  font-weight: 600;
+  text-align: right; 
+  z-index: 99999;
+}
+#hashMe {
+  position:relative; 
+  left:-2px; 
+  top:+5px; 
+  font-size:18px; 
+  font-weight:900; 
+  color:#000000;
+}
+.group {
+  cursor: pointer;
+  padding-bottom: 3px;
+}
+#groups {
+  float:right;
+  position: relative;
+  top: -40px;
+  background: lightgray;
+  width: 250px;
+  background: lightgray;
+  border: 3px solid darkolivegreen; 
+  border-radius:5px;
+  padding: 6px;
+  cursor: pointer; 
+  z-index:999999;
+}
+.hal {
+  width:58px; 
+  height:58px;
+  margin-top:74%;
+  margin-left:38%;
+  cursor: pointer;
+}
+#logo {
+  width:150px;
+}
+.name {
+  width:70%;
+  position:relative;
+  top:-30px;
+  margin-left:auto;
+  margin-right:auto;
+  background: #FFFFFF;
+  border: 1px solid black;
+  text-align:center;
+}
+.menu {
+  float: right;
+  width: 90px;
+  text-align: right;
+}  
+#muName {
+  font-weight:900; 
+}
+.my-modal-content {
+  float:left;
+  width:457px;
+  height:400px;
+  border:0px solid red;
+  margin-top:20%;
+}
+.my-modal-dialog {
+  width:457px;
+  background-color:#FFFFFF;
+  border:0px solid green;
+}
+#Password {
+  font-size:18px;  
+  background:transparent; 
+  width: 60%; 
+  border-radius:3px; 
+  font-weight:900;
+}
+#passworddisplay {
+  float:left;
+  position:fixed;
+  top:680px;
+  left:50px;
+  width:255px;
+  height:120px;
+  background:#434045;
+  text-align:left;
+  white-space:nowrap; 
+  font-family:Arial,Sans,Verdana; 
+  border: 1px solid darkgray;
+  border-radius: 5px; 
+  color:#000000; 
+  font-weight:900;
+  z-index:99999;
+}    
+#planet {
+  width:568px;
+  height:576px;
+  margin:auto;
+  background-image: url('/res/planet.png');
+  background-repeat: no-repeat;
+  background-position: center;
+} 
+#Salt {
+  position:relative; 
+  top:+5px; 
+  font-size:18px; 
+  background:transparent;
+  width: 90%; 
+  border-radius:3px; 
+  font-weight:900;
+}
+.vmuBurgerMenu {
+  width:350px; 
+  color: #003333; 
+  font-family: Secular One;
+  font-weight:400; 
+  text-align:right; 
+  border-bottom:1px solid #FFFFFF;
+  white-space: nowrap;
+}
+
+
