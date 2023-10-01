@@ -96,6 +96,14 @@ function startApp() {
     frmSim.submit();
  }
  
+$("input#Password").on("keydown",function(e){
+    key = e.which;
+    if (key===13) {
+        e.preventDefault();
+        frmSim.submit();
+    }
+ });
+ 
  window.addEventListener("load", function() {
    setTimeout("_startApp()", 10000);
  });  
