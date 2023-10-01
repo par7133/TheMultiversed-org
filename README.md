@@ -1,7 +1,7 @@
 
 <p align="center">
     <a href="https://sim.pli.city">
-        <img src="/Public/res/planet.png" width="188" title="Simplicity" alt="Simplicity">
+        <img src="/Public/res/ghlogo.png" width="188" title="Simplicity" alt="Simplicity">
     </a>
 </p>
 
