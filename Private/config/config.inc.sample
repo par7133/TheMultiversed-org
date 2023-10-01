@@ -1,0 +1,379 @@
+<?php
+
+/**
+ * Copyright 2021, 2024 5 Mode
+ * All Rights Reserved.
+ * 
+ * This file is part of Simplicity.
+ * 
+ * Redistribution and use in source and binary forms, with or without
+ * modification, are permitted provided that the following conditions are met:
+ *     * Redistributions of source code must retain the above copyright
+ *       notice, this list of conditions and the following disclaimer.
+ *     * Redistributions in binary form must reproduce the above copyright
+ *       notice, this list of conditions and the following disclaimer in the
+ *       documentation and/or other materials provided with the distribution.
+ *     * Neither 5 Mode nor the names of its contributors 
+ *       may be used to endorse or promote products derived from this software 
+ *       without specific prior written permission.
+ * 
+ * THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND
+ * ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
+ * WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+ * DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDERS OR CONTRIBUTORS BE LIABLE FOR ANY
+ * DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
+ * (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;
+ * LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND
+ * ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+ * (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
+ * SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+ * 
+ * config.inc
+ * 
+ * Simplicity configuration settings.
+ *
+ * @author Daniele Bonini <my25mb@aol.com>
+ * @copyrights (c) 2021, 2024, 5 Mode     
+ */
+
+define('DEBUG', false);
+
+define('DEMO', true);
+
+define('ADMIN_VIEW', "1");
+define('PUBLIC_VIEW', "2");
+define('LOCKED_VIEW', "3");
+ 
+define('APP_NAME', "Simplicity:");
+define('APP_TITLE', "Simplicity: everyone its netfriends.");
+
+// password: your_password
+//define('APP_BLOG_HASH', "");
+
+// password: your_password
+// salt: your_salt
+define('APP_HASH', "");
+define('APP_SALT', "yoursalt");
+
+define('APP_HOST', "YourSimplicity.com");
+define('APP_PATH', "/var/www/YourWebApp/Public");
+define('APP_HOME_PATH', "");
+define('APP_PRIVATE_PATH', "/var/www/YourWebApp/Private");
+define('APP_SCRIPT_PATH', "/var/www/YourWebApp/Private/scripts");
+define('APP_AJAX_PATH', "/var/www/YourWebApp/Private/scripts_ajax");
+define('APP_ERROR_PATH', "/var/www/YourWebApp/Private/error");
+define('APP_DATA_PATH', "/var/www/YourWebApp/Private/data");
+define('APP_LICENSE', <<<LICENSETEXT
+Copyright (c) 2016, 2024, 5 Mode
+All rights reserved.
+
+This file is part of Simplicity.
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions are met:
+     * Redistributions of source code must retain the above copyright
+       notice, this list of conditions and the following disclaimer.
+     * Redistributions in binary form must reproduce the above copyright
+       notice, this list of conditions and the following disclaimer in the
+       documentation and/or other materials provided with the distribution.
+     * Neither 5 Mode nor the names of its contributors 
+       may be used to endorse or promote products derived from this software 
+       without specific prior written permission.
+ 
+ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND
+ ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
+ WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+ DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDERS OR CONTRIBUTORS BE LIABLE FOR ANY
+ DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
+ (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;
+ LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND
+ ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+ (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
+ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+        
+https://opensource.org/licenses/BSD-3-Clause
+LICENSETEXT
+);
+// Default Locale, in two letters format
+define('APP_DEF_LANG', "en-US");
+define('APP_EMAIL_CONTACT', "info@yourfaceborg.com");
+
+$CONFIG = [
+
+   'DEBUG' => true,
+   'DEMO' => true, 
+    
+   'ADMIN_VIEW' => "1",
+   'PUBLIC_VIEW' => "2",
+   'LOCKED_VIEW' => "3", 
+    
+   'APP' => [
+      'NAME' => "Simplicity",
+      'TITLE' => "Simplicity: everyone its colorful posts.",
+      // password: your_password
+      // salt: your_salt
+      'HASH' => "",
+      'SALT' => "yoursalt",        
+      'HOST' => "YourSimplicity.com", 
+      'PATH' => "/var/www/YourWebApp/Public",
+      'HOME_PATH' => "",
+      'PRIVATE_PATH' => "/var/www/YourWebApp/Private", 
+      'SCRIPT_PATH' => "/var/www/YourWebApp/Private/scripts",
+      'AJAX_PATH' => "/var/www/YourWebApp/Private/scripts_ajax",
+      'ERROR_PATH' => "/var/www/YourWebApp/Private/error",
+      'DATA_PATH' => "/var/www/YourWebApp/Private/data",
+      'LICENSE' => <<<LICENSETEXT
+Copyright (c) 2016, 2024, 5 Mode
+All rights reserved.
+
+This file is part of Simplicity.
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions are met:
+     * Redistributions of source code must retain the above copyright
+       notice, this list of conditions and the following disclaimer.
+     * Redistributions in binary form must reproduce the above copyright
+       notice, this list of conditions and the following disclaimer in the
+       documentation and/or other materials provided with the distribution.
+     * Neither 5 Mode nor the names of its contributors 
+       may be used to endorse or promote products derived from this software 
+       without specific prior written permission.
+ 
+ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND
+ ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
+ WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+ DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDERS OR CONTRIBUTORS BE LIABLE FOR ANY
+ DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
+ (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;
+ LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND
+ ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+ (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
+ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+https://opensource.org/licenses/BSD-3-Clause
+LICENSETEXT
+             ,
+      'DEF_LANG' => "en-US",
+      'EMAIL_CONTACT' => "info@yoursimplicity.com"
+       ]      
+    
+    ];  
+
+// !!! ATTENTION !!!
+// Every GROUP must have max 8 buddies
+// Every ZONE must have max 2 buddies
+
+$FRIENDS = [
+  'DEV' => [
+     'Daniele' => [
+           'gender' => "male",
+           'hairc' => 2,
+           'glasses' => 1,
+           'beard' => 0,
+           'Location' => "Bologna, Italy",
+           'Desc' => "PHP developer",
+           'online' => 1,
+           'defStatus' => "on vacation: Unix, IDE, etc.",
+           'Phone' => "+393387654321",
+           'Homomm' => "https://homomm.5mode-foss.eu",
+           'Blog' => "https://blog.",
+           'www' => "https://www.",
+            // password: yourpassword
+            // salt: yoursalt
+           'HASH' => "",              
+           'zone' => 1
+          ],       
+     'Stuart' => [
+           'gender' => "male",
+           'hairc' => 3,
+           'glasses' => 0,
+           'beard' => 0,
+           'Location' => "Machester, UK",
+           'Desc' => "C/C++ developer",
+           'online' => 1,
+           'defStatus' => "in office",
+           'Phone' => "+444712345678",
+           'Homomm' => "https://homomm.5mode-foss.eu",
+           'Blog' => "https://blog.",
+           'www' => "https://www.",
+            // password: yourpassword
+            // salt: yoursalt
+           'HASH' => "",         
+           'zone' => 2
+          ], 
+     'Crystal' => [
+           'gender' => "female",
+           'hairc' => 2,
+           'glasses' => 0,
+           'beard' => 0,
+           'Location' => "Reading, UK",
+           'Desc' => "C/C++ developer",
+           'online' => 1,
+           'defStatus' => "in my studio",
+           'Phone' => "+444712345678",
+           'Homomm' => "https://homomm.5mode-foss.eu",
+           'Blog' => "https://blog.",
+           'www' => "https://www.",
+            // password: yourpassword
+            // salt: yoursalt
+           'HASH' => "",
+           'zone' => 2
+          ], 
+     'Michael' => [
+           'gender' => "male",
+           'hairc' => 2,
+           'glasses' => 1,
+           'beard' => 0,
+           'Location' => "Chicago, USA",
+           'Desc' => "Book Author, OpenBSD enthusiast",
+           'online' => 0,
+           'defStatus' => "business trip",
+           'Phone' => "+123412345678",
+           'Homomm' => "https://homomm.5mode-foss.eu",
+           'Blog' => "https://blog.",
+           'www' => "https://www.",
+            // password: yourpassword
+            // salt: yoursalt
+           'HASH' => "",           
+           'zone' => 3
+          ], 
+     'Jan' => [
+           'gender' => "male",
+           'hairc' => 3,
+           'glasses' => 0,
+           'beard' => 0,
+           'Location' => "Liverpool, UK",
+           'Desc' => "C/C++ developer",
+           'online' => 1,
+           'defStatus' => "in the hell? damn it should be more nice..",
+           'Phone' => "+123412345678",
+           'Homomm' => "https://homomm.5mode-foss.eu",
+           'Blog' => "https://blog.",
+           'www' => "https://www.",
+            // password: yourpassword
+            // salt: yoursalt
+           'HASH' => "",               
+           'zone' => 4
+          ], 
+     'Theo' => [
+           'gender' => "male",
+           'hairc' => 1,
+           'glasses' => 0,
+           'beard' => 1,
+           'Location' => "Montreal, Cananda",
+           'Desc' => "C/C++ developer",
+           'online' => 0,
+           'defStatus' => "business trip last",
+           'Phone' => "+123412345678",
+           'Homomm' => "https://homomm.5mode-foss.eu",
+           'Blog' => "https://blog.",
+           'www' => "https://www.",
+            // password: yourpassword
+            // salt: yoursalt
+           'HASH' => "",          
+           'zone' => 4
+          ]
+    ],
+  'MARKETING' => [
+     'Bill' => [
+           'gender' => "male",
+           'hairc' => 2,
+           'glasses' => 1,
+           'beard' => 0,
+           'Location' => "Seattle, US",
+           'Desc' => "retired buddy",
+           'online' => 1,
+           'defStatus' => "on one of my boats",
+           'Phone' => "+444712345678",
+           'Homomm' => "https://homomm.5mode-foss.eu",
+           'Blog' => "https://blog.",
+           'www' => "https://www.",
+            // password: yourpassword
+            // salt: yoursalt
+           'HASH' => "",          
+           'zone' => 1
+          ], 
+     'Steven' => [
+           'gender' => "male",
+           'hairc' => 3,
+           'glasses' => 0,
+           'beard' => 0,
+           'Location' => "Las Vegas, US",
+           'Desc' => "retired buddy",
+           'online' => 0,
+           'defStatus' => "playing chess",
+           'Phone' => "+444712345678",
+           'Homomm' => "https://homomm.5mode-foss.eu",
+           'Blog' => "https://blog.",
+           'www' => "https://www.",
+            // password: yourpassword
+            // salt: yoursalt
+           'HASH' => "",           
+           'zone' => 1
+          ]
+     ] 
+];
+
+
+$LOCALE = [
+
+  'it-IT' => [
+    
+    '/home.php' => [        
+      'ping' => "pong",
+      'How-to: Manage your avatars in Simplicity' => "How-to: Gestire i tuoi avatar in Simplicity",  
+      'CV' => "CV",  
+      'Sample' => "Esempio",   
+      'My Network' => "Network",
+      'Hello from 5 Mode' => "Ciao da 5 Mode",  
+      'This is just an example of blog entry' => "Questo e' giusto un esempio di post nel blog",  
+      'Go' => "Vai",  
+      'Hash Me' => "Codificami",  
+      'Some rights reserved' => "Alcuni diritti riservati"  
+         ],
+     
+    '/js/home-js.php' => [
+      'ping' => "pong",
+      'Please set your hash in the config file with this value' => "Puoi impostare il tuo hash nel file config con questo valore"   
+         ]  
+      
+      ],
+
+  'zh-CN' => [
+    
+    '/home.php' => [        
+      'ping' => "pong",
+      'How-to: Manage your avatars in Simplicity' => "HOW-TO: 免费管理您的化身",    
+      'CV' => "简历",  
+      'Sample' => "样本",  
+      'My Network' => "我的网络",  
+      'Hello from 5 Mode' => "您好5 MODE",  
+      'This is just an example of blog entry' => "这只是博客条目的一个例子",    
+      'Go' => "去",  
+      'Hash Me' => "哈希我",  
+      'Some rights reserved' => "保留一些权利"  
+         ],
+     
+    '/js/home-js.php' => [
+      'ping' => "pong",
+      'Please set your hash in the config file with this value' => "请在配置文件中设置您的哈希"     
+         ]  
+      
+      ]
+    
+  ];
+
+$EMOTICONS = [
+    '[:-)]' => "&#128578;",
+    '[:-p]' => "&#129297;",
+    '[:c)]' => "&#128512;",
+    '[;-)]' => "&#128521;",
+    '[:-J]' => "&#128527;",
+    '[;-P]' => "&#128540;",
+    '[:-/]' => "&#128533;",
+    '[@-)]' => "&#128531;",
+    '[B-)]' => "&#128526;",
+    '[=]]' => '&#128515;',
+    '[=)]' => "&#128516;",
+    '[*-)]' => "&#128525;"
+ ];
