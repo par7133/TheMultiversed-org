@@ -45,7 +45,7 @@ define('PUBLIC_VIEW', "2");
 define('LOCKED_VIEW', "3");
  
 define('APP_NAME', "Simplicity:");
-define('APP_TITLE', "Simplicity: everyone its netfriends.");
+define('APP_TITLE', "Simplicity: everyone its netbuddies.");
 
 // password: your_password
 //define('APP_BLOG_HASH', "");
@@ -109,7 +109,7 @@ $CONFIG = [
     
    'APP' => [
       'NAME' => "Simplicity",
-      'TITLE' => "Simplicity: everyone its colorful posts.",
+      'TITLE' => "Simplicity: everyone its netbuddies.",
       // password: your_password
       // salt: your_salt
       'HASH' => "",
@@ -263,7 +263,7 @@ $FRIENDS = [
            'Location' => "Montreal, Cananda",
            'Desc' => "C/C++ developer",
            'online' => 0,
-           'defStatus' => "business trip",
+           'defStatus' => "business trip last",
            'Phone' => "+123412345678",
            'Homomm' => "https://homomm.5mode-foss.eu",
            'Blog' => "https://blog.",
