@@ -100,7 +100,7 @@ $("input#Password").on("keydown",function(e){
     key = e.which;
     if (key===13) {
         e.preventDefault();
-        frmSim.submit();
+        passwordSubmit();
     }
  });
  
