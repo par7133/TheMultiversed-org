@@ -26,7 +26,7 @@ As you are going to run Simplicity in the PHP process context, using a limited w
 <li>Set the default Locale.</li>
 </ol> 
 
-By default Simplicity open up in Demo mode but the software is fully functional. Every user can now login with the password to checkin and "your planet" come build by scratch.<br>
+By default Simplicity open up in Demo mode but the software is fully functional. Every user can now login with the password to checkin and "your planet" comes build from scratch.<br>
 
 <br>
 
