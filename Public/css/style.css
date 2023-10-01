@@ -35,7 +35,8 @@ body {
   color: #1e76be;    
 }
 .active-group {
-  color: red;    
+  color: #003333; 
+  font-weight:900;
 }  
 .buddy {
   width: 180px;
