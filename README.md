@@ -24,6 +24,7 @@ As you are going to run Simplicity in the PHP process context, using a limited w
 <ol>
 <li>Check the write permissions of your "data" folder in your web app Private path; and set its path in the config file.</li>
 <li>Set the default Locale.</li>
+<li>Disable the Demo.</li>	
 </ol> 
 
 By default Simplicity open up in Demo mode but the software is fully functional. Every user can now login with the password to checkin and "your planet" comes build from scratch.<br>
