@@ -479,6 +479,8 @@ foreach($aGroups as $keyg => $valg) {
     
          <?PHP if ($CURRENT_VIEW === PUBLIC_VIEW): ?>
       
+            <?PHP if ($password !== PHP_STR || (DEMO && $curgroup!="")): ?>
+      
           <div id="groups" >
                <?PHP 
         foreach($aGroups as $keyg => $valg) {
@@ -496,6 +498,8 @@ foreach($aGroups as $keyg => $valg) {
         }  
       ?>    
           </div>
+      
+            <?PHP EndIf; ?>
       
          <?PHP EndIf; ?>
       
@@ -601,9 +605,9 @@ foreach($aGroups as $keyg => $valg) {
       <input id="_group" name="_group" type="hidden" value="<?PHP echo($curgroup)?>">  
       <input id="_checkin" name="_checkin" type="hidden" value="">  
 
-     <div id="passworddisplay">
+    <div id="passworddisplay">
        <br>  
-        &nbsp;&nbsp;<input type="password" id="Password" name="Password" placeholder="password" value="<?php echo($password);?>" autocomplete="off">&nbsp;<input type="button" onclick="passwordSubmit()" value="<?PHP echo(getResource0("Go", $lang));?>" style="text-align:left;width:25%;color:#000000;"><br>
+        &nbsp;&nbsp;<input type="password" id="Password" name="Password" placeholder="password" value="<?php echo($password);?>" autocomplete="off">&nbsp;<input id="goBut" type="button" onclick="passwordSubmit()" value="<?PHP echo(getResource0("Go", $lang));?>"><br>
         &nbsp;&nbsp;<input type="text" id="Salt" placeholder="salt" autocomplete="off"><br>
         <div style="text-align:center;">
            <a id="hashMe" href="#" onclick="showEncodedPassword();"><?PHP echo(getResource0("Hash Me", $lang));?>!</a>
