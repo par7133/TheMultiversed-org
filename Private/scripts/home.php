@@ -500,7 +500,7 @@ foreach($aGroups as $keyg => $valg) {
          <?PHP EndIf; ?>
       
          <?PHP if ($CURRENT_VIEW === LOCKED_VIEW || ($curgroup==PHP_STR && DEMO)): ?>
-         <?PHP echo("<div id='emptyPlanet'>Oh, a brand new planet !&nbsp;" . ((DEMO)?"<span class='demo'>[ DEMO ]</span>":"") . "</div>"); ?> 
+         <?PHP echo("<div id='emptyPlanet'>Oh, a brand new planet !&nbsp;" . ((DEMO)?"<span class='demo' onclick=selGroup('DEV')>[ DEMO ]</span>":"") . "</div>"); ?> 
          <?PHP Endif; ?>
       
           <div id="planet">&nbsp;</div>
