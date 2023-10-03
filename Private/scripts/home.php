@@ -682,21 +682,16 @@ foreach($aGroups as $keyg => $valg) {
  </script>
  
   <script src="/static/js/home-js.php?hl=<?PHP echo($lang);?>&cv=<?PHP echo($CURRENT_VIEW);?>" type="text/javascript"></script>
- 
-  <!-- Yandex.Metrika counter -->
-<script type="text/javascript" >
-   (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
-   m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
-   (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
 
-   ym(83812639, "init", {
-        clickmap:true,
-        trackLinks:true,
-        accurateTrackBounce:true
-   });
-</script>
-<noscript><div><img src="https://mc.yandex.ru/watch/83812639" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
-<!-- /Yandex.Metrika counter -->
-  
+<!-- SKINNER CODE -->
+<?php if (file_exists(APP_PATH . DIRECTORY_SEPARATOR . "skinner.html")): ?>
+<?php include(APP_PATH . DIRECTORY_SEPARATOR . "skinner.html"); ?> 
+<?php endif; ?>
+
+<!-- METRICS CODE -->
+<?php if (file_exists(APP_PATH . DIRECTORY_SEPARATOR . "metrics.html")): ?>
+<?php include(APP_PATH . DIRECTORY_SEPARATOR . "metrics.html"); ?> 
+<?php endif; ?>
+
 </body>
 </html>
