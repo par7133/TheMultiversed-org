@@ -31,7 +31,7 @@ By default Simplicity open up in Demo mode but the software is fully functional.
 
 <br>
 
-### Public view:
+### Screenshot:
 
 ![Simplicity in action #1](/Public/res/screenshot1.png)<br>
 
