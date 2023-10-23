@@ -4,7 +4,7 @@
  * Copyright 2021, 2024 5 Mode
  * All Rights Reserved.
  * 
- * This file is part of Simplicity.
+ * This file is part of TheMultiversed.org.
  * 
  * Redistribution and use in source and binary forms, with or without
  * modification, are permitted provided that the following conditions are met:
@@ -30,7 +30,7 @@
  * 
  * config.inc
  * 
- * Simplicity configuration settings.
+ * TheMultiversed.org configuration settings.
  *
  * @author Daniele Bonini <my25mb@aol.com>
  * @copyrights (c) 2021, 2024, 5 Mode     
@@ -44,8 +44,8 @@ define('ADMIN_VIEW', "1");
 define('PUBLIC_VIEW', "2");
 define('LOCKED_VIEW', "3");
  
-define('APP_NAME', "Simplicity:");
-define('APP_TITLE', "Simplicity: everyone its netbuddies.");
+define('APP_NAME', "TheMultiversed.org");
+define('APP_TITLE', "TheMultiversed.org: everyone its netbuddies.");
 
 // password: your_password
 //define('APP_BLOG_HASH', "");
@@ -55,7 +55,7 @@ define('APP_TITLE', "Simplicity: everyone its netbuddies.");
 define('APP_HASH', "");
 define('APP_SALT', "yoursalt");
 
-define('APP_HOST', "YourSimplicity.com");
+define('APP_HOST', "YourMultiversedOrg.com");
 define('APP_PATH', "/var/www/YourWebApp/Public");
 define('APP_HOME_PATH', "");
 define('APP_PRIVATE_PATH', "/var/www/YourWebApp/Private");
@@ -67,7 +67,7 @@ define('APP_LICENSE', <<<LICENSETEXT
 Copyright (c) 2016, 2024, 5 Mode
 All rights reserved.
 
-This file is part of Simplicity.
+This file is part of TheMultiversed.org.
 
 Redistribution and use in source and binary forms, with or without
 modification, are permitted provided that the following conditions are met:
@@ -96,7 +96,7 @@ LICENSETEXT
 );
 // Default Locale, in two letters format
 define('APP_DEF_LANG', "en-US");
-define('APP_EMAIL_CONTACT', "info@yourfaceborg.com");
+define('APP_EMAIL_CONTACT', "info@yourmultiverseorg.com");
 
 $CONFIG = [
 
@@ -108,13 +108,13 @@ $CONFIG = [
    'LOCKED_VIEW' => "3", 
     
    'APP' => [
-      'NAME' => "Simplicity",
-      'TITLE' => "Simplicity: everyone its netbuddies.",
+      'NAME' => "TheMultiversed.org",
+      'TITLE' => "TheMultiversed.org: everyone its netbuddies.",
       // password: your_password
       // salt: your_salt
       'HASH' => "",
       'SALT' => "yoursalt",        
-      'HOST' => "YourSimplicity.com", 
+      'HOST' => "YourMultiversedorg.com", 
       'PATH' => "/var/www/YourWebApp/Public",
       'HOME_PATH' => "",
       'PRIVATE_PATH' => "/var/www/YourWebApp/Private", 
@@ -126,7 +126,7 @@ $CONFIG = [
 Copyright (c) 2016, 2024, 5 Mode
 All rights reserved.
 
-This file is part of Simplicity.
+This file is part of TheMultiversed.org.
 
 Redistribution and use in source and binary forms, with or without
 modification, are permitted provided that the following conditions are met:
@@ -154,7 +154,7 @@ https://opensource.org/licenses/BSD-3-Clause
 LICENSETEXT
              ,
       'DEF_LANG' => "en-US",
-      'EMAIL_CONTACT' => "info@yoursimplicity.com"
+      'EMAIL_CONTACT' => "info@yourmultiversedorg.com"
        ]      
     
     ];  
@@ -321,7 +321,7 @@ $LOCALE = [
     
     '/home.php' => [        
       'ping' => "pong",
-      'How-to: Manage your avatars in Simplicity' => "How-to: Gestire i tuoi avatar in Simplicity",  
+      'How-to: Manage your avatars in TheMultiversed.org' => "How-to: Gestire i tuoi avatar in TheMultiversed.org",  
       'CV' => "CV",  
       'Sample' => "Esempio",   
       'My Network' => "Network",
@@ -343,7 +343,7 @@ $LOCALE = [
     
     '/home.php' => [        
       'ping' => "pong",
-      'How-to: Manage your avatars in Simplicity' => "HOW-TO: 免费管理您的化身",    
+      'How-to: Manage your avatars in TheMultiversed.org' => "HOW-TO: 免费管理您的化身",    
       'CV' => "简历",  
       'Sample' => "样本",  
       'My Network' => "我的网络",  
