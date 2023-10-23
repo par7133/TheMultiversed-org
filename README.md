@@ -7,7 +7,7 @@
 
 # TheMultiversed.org
 
-Hello and welcome to TheMultiverse.org!<br>
+Hello and welcome to TheMultiversed.org!<br>
 	  
 TheMultiversed.org is a light, simple, software on premise to build and own your buddy network.<br>
 	   
