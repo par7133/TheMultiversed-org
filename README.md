@@ -1,11 +1,11 @@
 
 <p align="center">
-    <a href="https://sim.pli.city">
+    <a href="https://TheMultiverse.org">
         <img src="/Public/res/ghlogo.png" width="188" title="TheMultiverse.org" alt="TheMultiverse.org">
     </a>
 </p>
 
-# Simplicity
+# TheMultiverse.org
 
 Hello and welcome to TheMultiverse.org!<br>
 	  
