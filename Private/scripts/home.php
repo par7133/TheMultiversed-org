@@ -681,7 +681,7 @@ foreach($aGroups as $keyg => $valg) {
   });  
  </script>
  
-  <script src="/static/js/home-js.php?hl=<?PHP echo($lang);?>&cv=<?PHP echo($CURRENT_VIEW);?>" type="text/javascript"></script>
+  <script src="/js/home-js.php?hl=<?PHP echo($lang);?>&cv=<?PHP echo($CURRENT_VIEW);?>" type="text/javascript"></script>
 
 <!-- SKINNER CODE -->
 <?php if (file_exists(APP_PATH . DIRECTORY_SEPARATOR . "skinner.html")): ?>
