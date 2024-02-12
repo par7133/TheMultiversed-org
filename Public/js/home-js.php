@@ -36,7 +36,7 @@
  * @copyrights (c) 2016, 2024 5 Mode     
  */
 
- require "../../../Private/core/init.inc";
+ require "../../Private/core/init.inc";
 
  header("Content-Type: text/javascript");
 
