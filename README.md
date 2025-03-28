@@ -35,6 +35,6 @@ By default TheMultiversed.org open up in Demo mode but the software is fully fun
 
 ![TheMultiversed.org in action #1](/Public/res/screenshot1.png)<br>
 
-Feedback: <a href="mailto:posta@elettronica.lol" style="color:#e6d236;">posta@elettronica.lol</a>
+Feedback: <a href="mailto:code@gaox.io" style="color:#e6d236;">code@gaox.io</a>
 
 
