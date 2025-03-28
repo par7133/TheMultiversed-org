@@ -470,7 +470,7 @@ foreach($aGroups as $keyg => $valg) {
   <body>
 
     <div class="header" style="margin-top:18px;margin-bottom:18px;">
-         <a href="https://themultiversed.org" target="_self" style="color:#000000; text-decoration: none;">&nbsp;<img src="/res/planet.png" style="width:22px;">&nbsp;TheMultiversed.org</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://github.com/par7133/TheMultiversed-org" style="color:#000000;"><span style="color:#119fe2">on</span> github</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="mailto:posta@elettronica.lol" style="color:#000000;"><span style="color:#119fe2">for</span> feedback</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="tel:+39-378-0812391" style="font-size:13px;background-color:#15c60b;border:2px solid #15c60b;color:#000000;height:27px;text-decoration:none;">&nbsp;&nbsp;get support&nbsp;&nbsp;</a>
+         <a href="https://themultiversed.5mode-foss.eu" target="_self" style="color:#000000; text-decoration: none;">&nbsp;<img src="/res/planet.png" style="width:22px;">&nbsp;TheMultiversed</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://github.com/par7133/TheMultiversed-org" style="color:#000000;"><span style="color:#119fe2">on</span> github</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="mailto:code@gaox.io" style="color:#000000;"><span style="color:#119fe2">for</span> feedback</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="tel:+39-378-0812391" style="font-size:13px;background-color:#15c60b;border:2px solid #15c60b;color:#000000;height:27px;text-decoration:none;">&nbsp;&nbsp;get support&nbsp;&nbsp;</a>
    </div>
     
     <form id="frmSim" action="." method="POST" target="_self">   
