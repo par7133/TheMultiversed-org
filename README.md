@@ -27,8 +27,6 @@ As you are going to run The Multiversed in the PHP process context, using a limi
 
 By default The Multiversed open up in Demo mode but the software is fully functional. Every user can now login with the password to checkin and "your planet" comes build from scratch.<br>
 
-<br>
-
 For any need of software additions, plugins and improvements please write to <a href="mailto:info@5mode.com">info@5mode.com</a>  
 
 To help please donate by clicking <a href="https://gaox.io/l/dona1">https://gaox.io/l/dona1</a> and filling the form. 
